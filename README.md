@@ -1,18 +1,25 @@
-# Difi Burger - Landing Page & Menu
+# Teh Cinta
 
-Ini adalah proyek *landing page* sederhana untuk Difi Burger, menampilkan menu spesial, informasi kontak, dan fitur simulasi unggah gambar di sisi klien.
+**Teh Cinta** adalah sebuah website sederhana namun menarik yang menampilkan produk teh dan kopi lokal dengan cita rasa penuh kasih. Website ini dirancang untuk usaha kuliner minuman dengan tampilan yang interaktif, responsif, dan estetik.
 
-## Fitur
+## 🎯 Tujuan
 
-* **Tampilan Responsif**: Desain yang menyesuaikan untuk berbagai ukuran layar (desktop, tablet, mobile).
-* **Menu Spesial**: Menampilkan daftar item menu dengan deskripsi dan harga.
-* **Informasi Kontak**: Bagian khusus untuk menampilkan nomor WhatsApp, alamat, dan jam buka.
-* **Link Media Sosial**: Ikon yang dapat diklik untuk terhubung ke media sosial (saat ini sebagai *placeholder* `#`).
-* **Simulasi Unggah Gambar**: Pengguna dapat mengklik area gambar logo atau menu untuk memilih gambar dari perangkat mereka. **Catatan**: Fitur ini hanya mengubah tampilan di *browser* pengguna secara lokal dan **tidak** mengunggah gambar ke server.
-* **Link Pesan WhatsApp**: Tombol "Pesan Sekarang" yang akan membuka aplikasi WhatsApp dengan pesan pre-filled untuk memudahkan pemesanan.
-* **Animasi CSS**: Efek transisi dan animasi halus untuk pengalaman pengguna yang lebih menarik.
-* **Font Awesome**: Digunakan untuk ikon-ikon yang menarik.
+Memberikan tampilan digital yang menarik untuk promosi produk-produk minuman seperti teh dan kopi, khususnya untuk usaha kecil dan menengah di Indonesia.
 
-## Struktur Proyek
+## 🖼️ Fitur Utama
 
-Proyek ini memiliki struktur folder sebagai berikut:
+- **Desain Animasi**: Latar belakang dengan animasi gradien dan ikon melayang untuk nuansa ceria dan hangat.
+- **Menu Dinamis**: Tiga produk utama (Teh Original, Teh Aneka Rasa, dan Aneka Kopi) lengkap dengan harga dan tombol pemesanan via WhatsApp.
+- **Ganti Gambar Interaktif**: Pengguna dapat mengganti gambar produk dan logo langsung dari tampilan.
+- **Kontak Mudah**: Informasi alamat, jam buka, dan tautan media sosial.
+- **Responsive**: Tampilan optimal di berbagai ukuran layar, dari desktop hingga mobile.
+
+## 🛠️ Teknologi yang Digunakan
+
+- **HTML5 & CSS3**: Struktur dan desain responsif.
+- **JavaScript (Vanilla)**: Interaktivitas seperti upload gambar dan tombol pemesanan.
+- **Google Fonts & Font Awesome**: Tipografi dan ikon modern.
+- **WhatsApp API**: Integrasi langsung untuk pemesanan.
+
+## 📁 Struktur Folder yang Disarankan
+

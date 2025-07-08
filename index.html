@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Difi Burger - Burger Premium Pilihan Anda</title>
+    <title>Teh Cinta - Cita Rasa Teh dan Kopi Penuh Kasih</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         /* CSS Variables for easier theming */
         :root {
-            --primary-color: #ff4757;
-            --secondary-color: #ff3742;
-            --accent-color: #ffd93d;
+            --primary-color: #e57373; /* Softer red/pink for 'Love Tea' */
+            --secondary-color: #ff8a80; /* Lighter shade */
+            --accent-color: #ffeb3b; /* Yellow for warmth */
             --text-dark: #333;
             --text-light: #fff;
-            --bg-gradient-start: #ff6b6b;
-            --bg-gradient-mid1: #ffd93d;
-            --bg-gradient-mid2: #6bcf7f;
-            --bg-gradient-end: #4ecdc4;
+            --bg-gradient-start: #ffccbc; /* Softer gradient start */
+            --bg-gradient-mid1: #ffab91;
+            --bg-gradient-mid2: #ff8a65;
+            --bg-gradient-end: #e57373; /* Matching primary color */
             --card-bg: rgba(255, 255, 255, 0.95);
-            --shadow-light: rgba(0, 0, 0, 0.2);
-            --shadow-medium: rgba(0, 0, 0, 0.3);
+            --shadow-light: rgba(0, 0, 0, 0.15); /* Lighter shadow */
+            --shadow-medium: rgba(0, 0, 0, 0.25); /* Lighter shadow */
             --border-radius-lg: 20px;
             --border-radius-md: 15px;
             --border-radius-sm: 25px;
@@ -60,8 +60,6 @@
             50% { transform: scale(1.03); } /* Slightly reduced pulse for professionalism */
         }
 
-        /* @keyframes rotate - Ini telah dihapus atau dinonaktifkan untuk logo */
-
         @keyframes fadeInUp {
             from { transform: translateY(30px); opacity: 0; }
             to { transform: translateY(0); opacity: 1; }
@@ -78,7 +76,7 @@
 
         @keyframes float {
             0%, 100% { transform: translateY(0px) rotate(0deg); }
-            50% { transform: translateY(-15px) rotate(10deg); } /* Subtle float and rotation */
+            50% { transform: translateY(-15px) rotate(5deg); } /* Subtle float and rotation */
         }
 
         /* Floating Elements */
@@ -145,7 +143,6 @@
             height: 100%;
             object-fit: cover;
             border-radius: 50%;
-            /* animation: rotate 10s linear infinite; - BARIS INI TELAH DIHAPUS */
             position: absolute; /* Cover the container */
             top: 0;
             left: 0;
@@ -228,7 +225,6 @@
         .menu-item:nth-child(1) { animation-delay: 0.2s; }
         .menu-item:nth-child(2) { animation-delay: 0.4s; }
         .menu-item:nth-child(3) { animation-delay: 0.6s; }
-        .menu-item:nth-child(4) { animation-delay: 0.8s; } /* For potential new items */
 
 
         .item-image-container {
@@ -311,7 +307,7 @@
             transition: all 0.3s ease;
             position: relative;
             overflow: hidden;
-            box-shadow: 0 5px 15px rgba(255, 71, 87, 0.3);
+            box-shadow: 0 5px 15px rgba(229, 115, 115, 0.3); /* Adjusted shadow for new colors */
         }
 
         .order-btn::before {
@@ -331,7 +327,7 @@
 
         .order-btn:hover {
             transform: translateY(-3px) scale(1.05); /* Lift and slight scale */
-            box-shadow: 0 12px 25px rgba(255, 71, 87, 0.5); /* More intense shadow on hover */
+            box-shadow: 0 12px 25px rgba(229, 115, 115, 0.5); /* More intense shadow on hover */
         }
 
         /* Contact Section */
@@ -398,7 +394,7 @@
         .social-link:hover {
             background: var(--secondary-color);
             transform: scale(1.2) rotate(10deg); /* More subtle rotate */
-            box-shadow: 0 8px 20px rgba(255, 71, 87, 0.4);
+            box-shadow: 0 8px 20px rgba(229, 115, 115, 0.4); /* Adjusted shadow */
         }
 
         /* Footer - Added for completeness */
@@ -438,22 +434,22 @@
 </head>
 <body>
     <div class="floating-elements" aria-hidden="true">
-        <div class="floating-icon" style="top: 10%; left: 10%; animation-delay: 0s;">🍔</div>
-        <div class="floating-icon" style="top: 20%; right: 15%; animation-delay: 2s;">🍟</div>
-        <div class="floating-icon" style="top: 60%; left: 20%; animation-delay: 4s;">🥤</div>
-        <div class="floating-icon" style="bottom: 20%; right: 20%; animation-delay: 1s;">🍔</div>
-        <div class="floating-icon" style="bottom: 40%; left: 15%; animation-delay: 3s;">🧀</div>
+        <div class="floating-icon" style="top: 10%; left: 10%; animation-delay: 0s;">☕</div>
+        <div class="floating-icon" style="top: 20%; right: 15%; animation-delay: 2s;">🍵</div>
+        <div class="floating-icon" style="top: 60%; left: 20%; animation-delay: 4s;">🌸</div>
+        <div class="floating-icon" style="bottom: 20%; right: 20%; animation-delay: 1s;">💖</div>
+        <div class="floating-icon" style="bottom: 40%; left: 15%; animation-delay: 3s;">🌿</div>
     </div>
 
     <div class="container">
         <header class="main-header">
-            <div class="logo-container" id="logoUpload" tabindex="0" role="button" aria-label="Ganti Logo Difi Burger">
-                <img src="img/logo/logo.jpg" alt="Logo Difi Burger" class="logo-img" 
+            <div class="logo-container" id="logoUpload" tabindex="0" role="button" aria-label="Ganti Logo Teh Cinta">
+                <img src="img/logo/logo.png" alt="Logo Teh Cinta" class="logo-img" 
                      onerror="this.style.display='none'; document.querySelector('#logoUpload .logo-placeholder-text').style.display='flex';">
                 <span class="logo-placeholder-text" style="display: none;"><i class="fas fa-camera"></i><br>Ganti Logo</span>
             </div>
-            <h1 class="site-title">DIFI BURGER</h1>
-            <p class="tagline">Burger Premium Pilihan Anda, Sensasi Rasa Tak Terlupakan!</p>
+            <h1 class="site-title">TEH CINTA</h1>
+            <p class="tagline">Cita Rasa Teh dan Kopi Penuh Kasih, Hangat di Hati!</p>
         </header>
 
         <main>
@@ -461,39 +457,39 @@
                 <h2 class="section-title">Menu Spesial Kami</h2>
                 <div class="menu-grid">
                     <article class="menu-item">
-                        <div class="item-image-container" id="beefBurgerImageUpload" tabindex="0" role="button" aria-label="Ganti Foto Burger Beef">
-                            <img src="img/menu/beef.jpg" alt="Burger Beef Klasik" class="menu-image"
-                                 onerror="this.style.display='none'; document.querySelector('#beefBurgerImageUpload .upload-text').style.display='flex';">
-                            <span class="upload-text" style="display: none;"><i class="fas fa-camera"></i><br>Ganti Foto<br>Burger Beef</span>
+                        <div class="item-image-container" id="originalTeaImageUpload" tabindex="0" role="button" aria-label="Ganti Foto Teh Original">
+                            <img src="img/menu/teh.jpg" alt="Teh Original" class="menu-image"
+                                 onerror="this.style.display='none'; document.querySelector('#originalTeaImageUpload .upload-text').style.display='flex';">
+                            <span class="upload-text" style="display: none;"><i class="fas fa-camera"></i><br>Ganti Foto<br>Teh Original</span>
                         </div>
-                        <h3 class="menu-name">Burger Beef Klasik</h3>
-                        <p class="menu-description">Patty daging sapi premium, selada renyah, tomat segar, acar, dan saus spesial Difi.</p>
-                        <p class="menu-price">Rp 10.000</p>
-                        <button class="order-btn" onclick="orderItem('Burger Beef Klasik', '10.000')">Pesan Sekarang</button>
+                        <h3 class="menu-name">Teh Original</h3>
+                        <p class="menu-description">Nikmati kesegaran klasik teh pilihan dengan cita rasa murni yang menenangkan.</p>
+                        <p class="menu-price">Rp 3.000</p>
+                        <button class="order-btn" onclick="orderItem('Teh Original', '3.000')">Pesan Sekarang</button>
                     </article>
 
                     <article class="menu-item">
-                        <div class="item-image-container" id="chickenBurgerImageUpload" tabindex="0" role="button" aria-label="Ganti Foto Burger Ayam Crispy">
-                            <img src="img/menu/chiken.jpg" alt="Burger Ayam Crispy" class="menu-image"
-                                 onerror="this.style.display='none'; document.querySelector('#chickenBurgerImageUpload .upload-text').style.display='flex';">
-                            <span class="upload-text" style="display: none;"><i class="fas fa-camera"></i><br>Ganti Foto<br>Burger Chicken</span>
+                        <div class="item-image-container" id="flavoredTeaImageUpload" tabindex="0" role="button" aria-label="Ganti Foto Teh Aneka Rasa">
+                            <img src="img/menu/teha.jpg" alt="Teh Aneka Rasa" class="menu-image"
+                                 onerror="this.style.display='none'; document.querySelector('#flavoredTeaImageUpload .upload-text').style.display='flex';">
+                            <span class="upload-text" style="display: none;"><i class="fas fa-camera"></i><br>Ganti Foto<br>Teh Aneka Rasa</span>
                         </div>
-                        <h3 class="menu-name">Burger Ayam Crispy</h3>
-                        <p class="menu-description">Dada ayam fillet renyah dilapisi tepung dan saus mayo pedas yang menggoda selera.</p>
-                        <p class="menu-price">Rp 10.000</p>
-                        <button class="order-btn" onclick="orderItem('Burger Ayam Crispy', '10.000')">Pesan Sekarang</button>
+                        <h3 class="menu-name">Teh Aneka Rasa</h3>
+                        <p class="menu-description">Pilih dari berbagai varian rasa teh unik yang akan memanjakan lidah Anda.</p>
+                        <p class="menu-price">Rp 5.000</p>
+                        <button class="order-btn" onclick="orderItem('Teh Aneka Rasa', '5.000')">Pesan Sekarang</button>
                     </article>
 
                     <article class="menu-item">
-                        <div class="item-image-container" id="macaroniSchotelImageUpload" tabindex="0" role="button" aria-label="Ganti Foto Macaroni Schotel">
-                            <img src="img/menu/macaroni.jpg" alt="Macaroni Schotel Melt" class="menu-image"
-                                 onerror="this.style.display='none'; document.querySelector('#macaroniSchotelImageUpload .upload-text').style.display='flex';">
-                            <span class="upload-text" style="display: none;"><i class="fas fa-camera"></i><br>Ganti Foto<br>Macaroni Schotel</span>
+                        <div class="item-image-container" id="coffeeVarietyImageUpload" tabindex="0" role="button" aria-label="Ganti Foto Aneka Kopi">
+                            <img src="img/menu/kopi.jpg" alt="Aneka Kopi" class="menu-image"
+                                 onerror="this.style.display='none'; document.querySelector('#coffeeVarietyImageUpload .upload-text').style.display='flex';">
+                            <span class="upload-text" style="display: none;"><i class="fas fa-camera"></i><br>Ganti Foto<br>Aneka Kopi</span>
                         </div>
-                        <h3 class="menu-name">Macaroni Schotel Melt</h3>
-                        <p class="menu-description">Macaroni panggang lembut dengan saus, daging dan topping keju melimpah.</p>
-                        <p class="menu-price">Rp 10.000</p>
-                        <button class="order-btn" onclick="orderItem('Macaroni Schotel Melt', '10.000')">Pesan Sekarang</button>
+                        <h3 class="menu-name">Aneka Kopi</h3>
+                        <p class="menu-description">Nikmati sajian kopi pilihan, mulai dari yang klasik hingga modern, dengan aroma menggoda.</p>
+                        <p class="menu-price">Rp 5.000</p>
+                        <button class="order-btn" onclick="orderItem('Aneka Kopi', '5.000')">Pesan Sekarang</button>
                     </article>
                 </div>
             </section>
@@ -501,20 +497,20 @@
             <section class="contact-section">
                 <h2 class="section-title">Hubungi Kami</h2>
                 <div class="contact-info">
-                    <p><i class="fab fa-whatsapp"></i> WhatsApp: <a href="https://wa.me/6281227000279" target="_blank" rel="noopener noreferrer"> +62 812-2700-0279</a></p>
-                    <p><i class="fas fa-map-marker-alt"></i> Alamat: Jl. Genuksuran RT 01 RW 01 Purwodadi</p>
+                    <p><i class="fab fa-whatsapp"></i> WhatsApp: <a href="https://wa.me/000000000000" target="_blank" rel="noopener noreferrer"> +00 000-0000-000</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> Alamat: Jl. Indonesia</p>
                     <p><i class="far fa-clock"></i> Jam Buka: Senin - Minggu</p>
                 </div>
                 <div class="social-links">
-                    <a href="#" class="social-link" aria-label="Difi Burger Instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="social-link" aria-label="Difi Burger Facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social-link" aria-label="Difi Burger Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link" aria-label="Teh Cinta Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link" aria-label="Teh Cinta Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link" aria-label="Teh Cinta Twitter"><i class="fab fa-twitter"></i></a>
                 </div>
             </section>
         </main>
 
         <footer class="main-footer">
-            <p>&copy; 2025 Difi Burger. Semua Hak Dilindungi.</p>
+            <p>&copy; 2025 Teh Cinta. Semua Hak Dilindungi.</p>
         </footer>
     </div>
 
@@ -577,14 +573,14 @@
 
             // Setup upload listeners for logo and menu items
             setupImageUpload('logoUpload', true);
-            setupImageUpload('beefBurgerImageUpload');
-            setupImageUpload('chickenBurgerImageUpload');
-            setupImageUpload('macaroniSchotelImageUpload');
+            setupImageUpload('originalTeaImageUpload');
+            setupImageUpload('flavoredTeaImageUpload');
+            setupImageUpload('coffeeVarietyImageUpload');
 
             // Order function
             function orderItem(itemName, itemPrice) {
-                const phoneNumber = '6281227000279'; // Ganti dengan nomor WhatsApp Anda
-                const message = `Halo Difi Burger! Saya tertarik untuk memesan ${itemName} (Rp ${itemPrice}). Mohon informasi lebih lanjut mengenai pemesanan. Terima kasih!`;
+                const phoneNumber = '000000000000'; // Ganti dengan nomor WhatsApp Anda
+                const message = `Halo Teh Cinta! Saya tertarik untuk memesan ${itemName} (Rp ${itemPrice}). Mohon informasi lebih lanjut mengenai pemesanan. Terima kasih!`;
                 const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
                 window.open(whatsappUrl, '_blank');
             }
